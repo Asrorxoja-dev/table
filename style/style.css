@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: "Montserrat";
+}
+.header  .nav-start {
+    display: flex;
+    justify-content: space-between;
+    display: flex;
+width: 1110px;
+padding: 16px;
+align-items: center;
+margin-right: auto;
+margin-left: auto;
+margin-top: 20px;
+
+}
+
+.header  .nav-start .down {
+    display: flex;
+    padding: 8px 9px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 8px;
+background: #E0E0E0;
+cursor: pointer;
+}
+
+.header  .nav-start .down h4 {
+    color: #000;
+font-family: Montserrat;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.header  .nav-start  p {
+    color: #000;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.header  .nav-start .head {
+    display: flex;
+    gap: 30px;
+    align-items:center;
+}
