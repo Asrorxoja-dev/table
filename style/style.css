@@ -4,8 +4,25 @@
     box-sizing: border-box;
 }
 
+.container {
+    max-width: 1146px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .body {
     font-family: "Montserrat";
+}
+
+.header {
+    /* margin-bottom: 30px; */
+    display: flex;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
 }
 .header  .nav-start {
     display: flex;
@@ -32,16 +49,15 @@ cursor: pointer;
 
 .header  .nav-start .down h4 {
     color: #000;
-font-family: Montserrat;
-font-size: 12px;
+    font-size: 14px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 }
 
-.header  .nav-start  p {
+.header  .nav-start .head p {
     color: #000;
-font-size: 15px;
+font-size: 17px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
@@ -51,4 +67,81 @@ line-height: normal;
     display: flex;
     gap: 30px;
     align-items:center;
+}
+
+.header  .nav-start  .Search {
+    border: none;
+    display: flex;
+padding: 8px 9px;
+align-items: center;
+gap: 8px;
+flex: 1 0 0;
+
+border-radius: 8px;
+border: 1px solid #9E9E9E;
+
+width: 276px;
+height: 35px;
+}
+
+.header .nav-end button{
+    display: flex;
+padding: 8px 12px;
+justify-content: center;
+align-items: center;
+gap: 8px;
+border:none;
+border-radius: 8px;
+background: #624DE3;
+cursor: pointer;
+width: 140px;
+height: 32px;
+}
+.header .nav-end button:hover {
+    background:#3826ac;
+}
+.header .nav-end button h4 {
+    color: #FFF;
+font-size: 12px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+table .span {
+    color: #000;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+table  {
+   width: 1110px;
+   height: 50px;
+   align-items:center;
+   margin-left: 100px;
+   text-align: center;
+
+   
+
+}
+
+
+table img {
+    cursor: pointer;
+ margin-left: 40px;
+
+}
+
+table .line-1 tr {
+width: 1110px;
+height: 64px;
+margin-top: 30px;
+
+    display: flex;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+align-self: stretch;
 }
