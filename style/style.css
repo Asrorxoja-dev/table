@@ -12,7 +12,7 @@
 }
 
 .body {
-    font-family: "Montserrat";
+    font-family: 'Montserrat';
 }
 
 .header {
@@ -69,6 +69,10 @@ line-height: normal;
     align-items:center;
 }
 
+.header  .nav-start  .Search input {
+    border:none;
+}
+
 .header  .nav-start  .Search {
     border: none;
     display: flex;
@@ -114,15 +118,18 @@ font-size: 14px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-bottom: 20px;
 }
 table  {
-   width: 1110px;
+  width: 1110px;
    height: 50px;
    align-items:center;
-   margin-left: 100px;
+   margin-left: 120px;
    text-align: center;
+margin-bottom: 10px;
 
-   
+
+
 
 }
 
@@ -133,15 +140,33 @@ table img {
 
 }
 
-table .line-1 tr {
+table  tr {
 width: 1110px;
 height: 64px;
 margin-top: 30px;
+gap: 16px;
+margin-left: 100px;
+align-self: stretch;
+text-align: center;
 
+
+
+
+}
+
+
+table .line-1 {
     display: flex;
 padding: 16px;
 justify-content: center;
 align-items: center;
 gap: 16px;
 align-self: stretch;
+color: #000;
+text-align: center;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 }
+
