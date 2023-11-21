@@ -12,7 +12,7 @@
 }
 
 .body {
-    font-family: 'Montserrat';
+    font-family: Montserrat;
 }
 
 .header {
@@ -132,7 +132,58 @@ margin-bottom: 10px;
 
 
 }
+.table-1  {
+    background: #F7F6FE; ;
+}
+.hat span {
+ padding-bottom:5px ;
+  align-items:center;
 
+}
+
+table .hat {
+   text-align: center;
+    align-items:center
+}
+
+th, td {
+    align-items:center;
+}
+
+th {
+    text-align: left;
+    color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.table-1 .hat img {
+   gap: 20px;
+}
+
+  
+
+
+.table-1  {
+  padding-top: 15px;
+  padding-bottom: 15px;
+    width: 1110px;
+    height: 64px;
+    align-items:center;
+     text-align: center;
+     display: flex;
+padding: 16px;
+justify-content: center;
+align-items: center;
+gap: 16px;
+align-self: stretch;
+
+
+}
 
 table img {
     cursor: pointer;
@@ -140,7 +191,7 @@ table img {
 
 }
 
-table  tr {
+table  td {
 width: 1110px;
 height: 64px;
 margin-top: 30px;
@@ -150,6 +201,13 @@ align-self: stretch;
 text-align: center;
 
 
+color: #000;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
 
 
 }
@@ -170,3 +228,7 @@ font-weight: 500;
 line-height: normal;
 }
 
+
+table  .date-1 {
+   padding-left: 40px;
+}
